@@ -1,4 +1,4 @@
-#HitBox Event SignUp Screen
+# HitBox Event SignUp Screen
 
 A little app I made for collecting emails at events where we're showing off [HitBox](http://playhitbox.com).
 
