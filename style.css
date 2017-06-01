@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "SuperMolot";
+  src: url("Supermolot_light.otf") format("opentype");
+}
+
+body {
+	background-color: #73d3d1;
+}
+
+img {
+	margin: 0 auto;
+	display: block;
+	margin-top: 2%;
+}
+
+div.prompt {
+	text-align: center;
+	font-family: "Open Sans";
+	font-weight: bold;
+	color: #3d3d3d;
+	margin-top: 4%;
+}
+
+input {
+	width: 30%;
+	border: 2px solid #73d3d1;
+    padding: 12px 20px;
+    margin: 8px 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+	font-weight: bold;
+	-webkit-transition: border 0.25s;
+    transition: border 0.25s;
+}
+
+input:focus {
+	outline: 0;
+	border: 2px solid #32A09E;
+}
+
+div.inputs {
+	text-align: center;
+	margin-top: 4%;
+}
+
+button {
+	background-color: #32A09E;
+    border: 2px solid #32A09E;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    font-family: 'SuperMolot';
+    -webkit-transition: background-color 0.25s;
+    transition: background-color 0.25s;
+}
+
+button:hover {
+	border: 2px solid #32A09E;
+	background-color: #73d3d1;
+}
+
+button:active {
+	background-color: #54c9c7;
+}
+
+button:focus {
+	outline:0;
+}
+
+div.submit-button {
+	text-align: center;
+	margin-top: 4%;
+}
+
+.text-message {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #06427f;
+	margin-top: 3%;
+	-webkit-transition: opacity 0.25s; /* Safari */
+    transition: opacity 0.25s;
+    transition-timing-function: ease-in-out;
+}
+
+.error-message {
+	font-family: 'Open Sans';
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	color: #f41100;
+	margin-top: 3%;
+	-webkit-transition: opacity 0.25s; /* Safari */
+    transition: opacity 0.25s;
+    transition-timing-function: ease-in-out;
+}
